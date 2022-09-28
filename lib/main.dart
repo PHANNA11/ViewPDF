@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_pdf/screen/main_page.dart';
+import 'package:flutter_pdf/screen/controller_screen_device.dart';
+import 'package:flutter_pdf/screen/phoneApp/pdfscreen_phone.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());
@@ -10,9 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PDFScreen(),
+      home: ScreenDevice(),
     );
   }
 }
