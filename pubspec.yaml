@@ -34,6 +34,10 @@ dependencies:
 #  syncfusion_flutter_pdfviewer: ^20.2.44-beta
   flutter:
     sdk: flutter
+  window_size:
+    git:
+      url: https://github.com/google/flutter-desktop-embedding
+      path: plugins/window_size
 
 
   # The following adds the Cupertino Icons font to your application.
